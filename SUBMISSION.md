@@ -11,9 +11,9 @@ activate virtual env: source myenv/bin/activate
 install the required packages:  pip install -r requirements.txt
 
 run these commands:
-            python manage.py makemigrations
-			python manage.py migrate
-			python manage.py runserver
+        python manage.py makemigrations
+	    python manage.py migrate
+	    python manage.py runserver
 
 
 # Database creation:
@@ -30,6 +30,11 @@ run these commands:
 # Endpoint Url: 
 
 http://127.0.0.1:8030/path/?source=YYZ&destination=JFK
+
+
+# Run test 
+
+pytest
 
 
 
